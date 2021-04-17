@@ -104,7 +104,7 @@ class Animate {
 
 const animate = new Animate(document.getElementById('id'))
 
-animate.start('left', 500, 1000, 'linear')
+// animate.start('left', 500, 1000, 'linear')
 
 
 

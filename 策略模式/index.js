@@ -102,11 +102,14 @@ class Animate {
 
 
 
+
 const animate = new Animate(document.getElementById('id'))
 
-// animate.start('left', 500, 1000, 'linear')
 
 
+document.getElementById('animateStartBtn').addEventListener('click', function() {
+    animate.start('left', 500, 1000, 'linear')
+})
 
 
 
